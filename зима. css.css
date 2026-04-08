@@ -1,0 +1,126 @@
+h1{
+    background-color: rgb(0, 183, 255);
+    color: rgb(245, 245, 245);
+    padding: 75px; ;
+    font-family: 'Times New Roman', Times, serif;
+    background: linear-gradient(rgb(108, 221, 15),rgb(247, 152, 223));
+}
+p{
+    background-color: rgb(126, 228, 86);
+    color: rgb(97, 205, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: fit-content;
+    font-size: 30px;
+    padding: 40px;
+    background: linear-gradient(rgb(18, 216, 134),green);
+}
+div{
+    background-color: rgb(74, 183, 255);
+    color: rgb(231, 39, 14);
+width:fit-content ;
+margin-left: 40%;
+font-size: xx-large;
+
+}
+table{
+    padding: 80px;
+    border: 40px ridge rgb(179, 51, 51) ;
+    margin-bottom: 30%;
+    margin-left: 40px;
+    margin-top: 50px;
+    /* border-collapse: collapse; */
+    background: linear-gradient(rgb(221, 15, 101),green);
+}
+td{
+    padding: 10px;
+    border: 15px solid lime; 
+    border-radius: 50%;
+    transition: all 0.5s;
+    cursor: pointer;
+    font-size: 20px;
+    color: rgb(15, 199, 255);
+}
+caption{
+    background-color: rgb(76, 187, 76);
+    color: rgb(114, 238, 56);
+    padding: 20px; ;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+}
+td:hover{
+    background-color: rgb(228, 250, 228);
+}
+section{
+    background-color: rgb(72, 174, 243);
+    color: rgb(21, 6, 240);
+    padding: 25px; ;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+#links{
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    background: linear-gradient(rgb(44, 235, 23),deeppink);
+    flex-direction: column;
+}
+a{
+    padding: 30px 10% ;
+    background-color: rgb(53, 231, 255);
+    color: rgb(223, 15, 15);
+    text-decoration: none;
+    font-size: 60px;
+}
+a:hover{
+    background-color: rgb(23, 201, 32);
+    transform: scale(2.1);
+    transition: all 1s;
+}
+#gal img{
+    width: 21%;
+    height: 500px;
+    transition: all 1s;
+    object-fit: cover;
+    border: 15px groove rgb(66, 224, 26)
+
+}
+#gal{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 50px;
+    background-color: rgb(8, 156, 255);
+    
+}
+#gal img:hover{
+transform: scale(1.1);
+cursor: pointer;
+}
+#film{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 50px;
+    background-color: deeppink;
+    background: linear-gradient(deeppink, rgb(44, 235, 23));
+    
+}
+video{
+    outline: 25px dashed rgb(216, 29, 15);
+    animation: border_anim 35 infinite alternate;
+}
+@keyframes border_anim { 
+    from{outline-width:25px;}
+    to{outline-width: 5px;}
+}
+iframe{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 50px;
+    background-color: rgb(19, 234, 241);
+    background: linear-gradient( rgb(44, 235, 23),deeppink);
+    outline: 25px dashed rgb(15, 11, 243);
+    animation: border_anim 45 infinite alternate;
+}

@@ -1,0 +1,129 @@
+
+h1{ 
+    background-color: rgb(255, 247, 0);
+    color: rgb(121, 0, 0);
+    padding: 40px; ;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Times New Roman', Times, serif, 'Trebuchet MS', sans-serif;
+    font-size: ;
+}
+p{
+    background: linear-gradient(rgb(103, 255, 76),rgb(63, 104, 194));
+    color: rgb(16, 148, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 35px;
+    font-size: 50px;
+    font-family: initial;
+    width: fit-content;
+    margin-left: 30%;
+    margin-top: -4%;
+    border-radius: 40px;
+}
+div{
+    background: linear-gradient(rgb(228, 128, 128),rgb(82, 134, 212));
+    color: rgb(176, 72, 207);
+    font-size: 30px;
+    margin-left: 80%;
+    width: fit-content;
+    border-radius: 50px;
+}
+table{
+    padding: 70px;
+    border: 70px ridge rgb(249, 210, 35);
+    margin-left: 40%;
+    margin-top: 50px;
+    border-spacing: 70px;
+    /* border-collapse: collapse; */
+}
+td{
+    border: 40px solid rgb(199, 30, 30);
+    padding: 30px;
+    border-radius: 50%;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+caption{
+    color: rgb(48, 25, 48);
+    background-color: rgb(238, 148, 233);
+    padding: 10%;
+    width: fit-content;
+    margin-left: 18%;
+    font-size: larger;
+}
+td :hover {
+    background-color: rgb(144, 206, 0);
+}
+ section{
+    background-color: rgb(196, 120, 116);
+    font-size: larger;
+    width: fit-content;
+ }
+ #links {
+    padding: 35px 40% ;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    background: linear-gradient(pink,rgb(25, 232, 25));
+    flex-direction: column;
+ }
+a{
+    padding: 35px 50%;
+    background-color: rgb(240, 100, 12);
+    color: rgb(64, 200, 180);
+    text-decoration: none;
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+a :hover {
+    transform: scale(1.1);
+}
+#gal img{
+    width: 39%;
+    height: 500px;
+    transition: all 1s;
+    object-fit: cover;
+    border: 35px groove rgb(125, 250, 114);
+}
+#gal{
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    padding: 50px;
+    background-color: rgb(214, 236, 20);
+}
+#gap img :hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+#film {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    padding: 50px;
+    background-color: rgb(177, 29, 170);
+}
+video {
+    outline: 35px dashed rgb(251, 253, 138) ;
+    animation: border_anim 3s infinite alternate
+}
+@keyframes border_anim{
+    from{outline-width:35px ;}
+    to{outline-width: 10px;}
+}
+#test {
+    padding: 35px;
+    border: 40px ridge rgb(129, 9, 9);
+    margin-left: 15%;
+    border-spacing: 15px;
+    margin-top: -50;
+    /* border-collapse: collapse; */
+}
+iframe{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 50px;
+    background-color: rgb(13, 203, 236);
+    background: linear-gradient( rgb(44, 236, 211),rgb(216, 255, 20));
+    outline: 25px dashed rgb(243, 248, 168);
+    animation: border_anim 35 infinite alternate;
+}

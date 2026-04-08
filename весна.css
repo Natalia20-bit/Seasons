@@ -1,0 +1,115 @@
+h1 {
+    background-color: blanchedalmond;
+    color: aqua;
+    padding: 25px;
+    font-size: 60px;
+}
+p{
+    background-color: lime;
+    color: crimson;
+    padding: 35px;
+    font-size: 50px;
+    font-family: initial;
+    width: fit-content;
+    margin-left: 30%;
+    margin-top: -5%;
+    border-radius: 40px;
+}
+div{
+    background-color: yellow;
+    color: chocolate;
+    padding: 65px;
+    font-family: var(chocolate);
+    font-size: 25px;
+    margin-left: 75%;
+    width: fit-content;
+    border-radius: 45px;
+}
+table{
+    padding: 40px;
+    border: 25px ridge pink;
+    margin-left: 35%;
+    margin-top: 50px;
+    border-spacing: 20px;
+    /* border-collapse: collapse; */
+}
+td{
+    border: 15px solid lime;
+    padding: 30px;
+    border-radius: 50%;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+caption{
+    background-color: brown;
+    color: burlywood;
+    padding: 35px;
+    font-size: 45px;
+    margin-top: -90%;
+}
+td:hover{
+    background-color: greenyellow;
+}
+#links{
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background: linear-gradient(pink, olive);
+    flex-direction: column;
+}
+a{
+    padding: 15px 5%;
+    background-color: greenyellow;
+    color: darkred;
+    text-decoration: none;
+    font-size: 45px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+a:hover{
+    transform: scale(1.1);
+}
+#gal img{
+    width: 21%;
+    height: 500px;
+    transition: all 1s;
+    object-fit: cover;
+    border: 15px groove rgb(66, 224, 26)
+}
+#gal{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 50px;
+    background-color: rgb(228, 20, 255);
+    
+}
+#gal img:hover{
+transform: scale(1.1);
+cursor: pointer;
+}
+#film{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 50px;
+    background-color: rgb(216, 20, 255);
+    background: linear-gradient(rgb(247, 20, 255), rgb(44, 235, 23));
+}
+video{
+    outline: 25px dashed rgb(243, 248, 168);
+    animation: border_anim 35 infinite alternate;
+}
+@keyframes border_anim{
+    from {outline: widht:25px;}
+    to {outline: widht:5px;}}
+iframe{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 50px;
+    background-color: rgb(255, 20, 235);
+    background: linear-gradient( rgb(44, 235, 23),rgb(255, 20, 255));
+    outline: 25px dashed rgb(243, 248, 168);
+    animation: border_anim 35 infinite alternate;
+}

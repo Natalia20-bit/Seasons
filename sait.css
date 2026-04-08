@@ -1,0 +1,57 @@
+body{
+        margin: 0;
+        background-image:url(IMG/bremena.png) ;
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+}
+main{
+        padding: 20px;
+        background-color: rgb(175, 248, 6);
+        color: rgb(255, 0, 0);
+        font-size: larger;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        text-align: center;
+}
+nav{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+}
+nav a{
+        background-color: rgb(203, 240, 53);
+        color:rgb(209, 85, 51) ;
+}
+#clock{
+        width: 200px;
+        height: 200px;
+        border: 10px groove black;
+        margin: auto;
+        border-radius: 50%;
+        position: relative;
+    
+}
+#seconds{
+        width: 40%;
+        height: 8px;
+        background-color: black;
+        position: absolute;
+        top: calc(50% - 4px);
+        left: 50%;
+        animation: tictac 60s infinite linear;
+        transform-origin: left;
+}
+#minutes{
+        width: 30%;
+        height: 8px;
+        background-color: black;
+        position: absolute;
+        top: calc(50% - 4px);
+        left: 50%;
+        animation: tictac 3600s infinite linear;
+        transform-origin: left;
+}
+@keyframes tictac {
+        from {transform: rotate(0);}
+        to {transform: rotate(360deg);}
+}
